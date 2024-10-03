@@ -1,17 +1,17 @@
 {
   "name": "mernecommerce",
-  "version": "1.0.0",
-  "description": "",
-  "main": "backend/server.js",
-  "scripts": {
-    "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm build --prefix frontend"
-  },
-  "keywords": [],
-  "author": "",
-  "type": "module",
-  "license": "ISC",
+	"version": "1.0.0",
+	"description": "",
+	"main": "backend/server.js",
+	"scripts": {
+		"dev": "nodemon backend/server.js",
+		"start": "node backend/server.js",
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+	},
+	"keywords": [],
+	"author": "",
+	"type": "module",
+	"license": "ISC",
   "dependencies": {
     "@stripe/stripe-js": "^4.5.0",
     "axios": "^1.7.7",
