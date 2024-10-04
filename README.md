@@ -33,6 +33,7 @@ MONGO_URI -> your own [mongo](https://www.mongodb.com/) Url with your own userna
 UPSTASH_REDIS_URL -> Your own Url with [redis upstash](https://upstash.com/)
 
 ACCESS_TOKEN_SECRET -> Your own random / secure secret password
+
 REFRESH_TOKEN_SECRET -> A second random / secure secret password which is different from last
 
 CLOUDINARY_CLOUD_NAME -> the name of your [cloudinary](https://cloudinary.com/) cloud
